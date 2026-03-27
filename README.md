@@ -15,6 +15,33 @@ This repository contains the complete implementation and experimental framework 
 - Hybrid RRF (Reciprocal Rank Fusion combining BM25 and Dense Vector)
 - Two-Stage (novel architecture combining Hybrid RRF with cross-encoder reranking)
 
+Dataset Links
+The following publicly available datasets were used in this research:
+Medical Domain:
+
+Dataset: MedQuad Medical Question Answering Dataset
+HuggingFace: https://huggingface.co/datasets/keivalya/MedQuad-MedicalQnADataset
+Original Source: https://github.com/abachaa/MedQuAD
+License: Open for research use
+Citation: Abacha and Demner-Fushman (2019)
+
+Finance Domain:
+
+Dataset: Finance-Alpaca
+HuggingFace: https://huggingface.co/datasets/gbharti/finance-alpaca
+Related Source: https://github.com/tatsu-lab/stanford_alpaca
+License: Open for research use
+Citation: Taori et al. (2023)
+
+Politics Domain:
+
+Dataset: XSUM (Extreme Summarization)
+HuggingFace: https://huggingface.co/datasets/EdinburghNLP/xsum
+Original Source: https://github.com/EdinburghNLP/XSum
+Official Page: https://www.edinburghnlp.inf.ed.ac.uk/xsum/
+License: MIT License
+Citation: Narayan et al. (2018)
+
 ## Key Results
 
 The Two-Stage method achieves consistent improvements of 10 to 13 percent over the best single-stage baseline (Hybrid RRF) across all three evaluated domains. While baseline methods show variable performance ranging from minimal to moderate gains depending on domain characteristics, the Two-Stage architecture maintains stable effectiveness across diverse evaluation conditions.
