@@ -116,14 +116,4 @@ This work builds upon several foundational contributions:
 - Cross-encoder reranking: Nogueira and Cho (2019)
 - Reciprocal Rank Fusion: Cormack et al. (2009)
 
-## License
 
-This project is licensed under the MIT License. See LICENSE file for details.
-
-## Contact
-
-For questions or collaboration opportunities, please contact [your email] or open an issue in this repository.
-
-## Notes
-
-This implementation is provided for research and educational purposes. API access to OpenAI (GPT-4o Mini) and Google (Gemini 2.5 Flash) is required to run the complete experimental pipeline. API keys should be kept confidential and not committed to version control.
